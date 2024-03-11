@@ -157,7 +157,7 @@
   height: 180px;
 }
 .bottom_infor_product_right_side{
-  margin-top: 20px;
+  margin-top: 12px;
   position: relative;
 }
 .infor_product_bottom_right_side{
@@ -169,4 +169,24 @@
 }
 .bottom_popular_product_right_side_pic{
   border-radius: 10px;
+}
+#on_sale_section{
+  margin-top: 90px;
+}
+.on_sale_pic_section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.on_sale_pic{
+  border-radius: 10px;
+  width: 367px;
+  height: 244px;
+  margin: 4px 5px;
+}
+
+#footer_section{
+  background-color: #6E6F72;
+  width: 100%;
+  height: 301px;
+  margin-top: 90px;
 }
