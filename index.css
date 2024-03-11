@@ -27,7 +27,7 @@
   }
   .wrapper{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
   }
   .header_section{
     display: flex;
@@ -71,6 +71,7 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
+    line-height: 77px;
   }
   #slide_section{
     width: 100%;
@@ -83,13 +84,89 @@
   font-size: 20px;
   margin-bottom: 14px;
   color: #fff;
-  width: 450px;
+  width: 420px;
   position: absolute;
   top: 180px;
-  left: 160px;
+  left: 220px;
 
 }
 .left_banner_side h1 {
   font-size: 70px;
   font-weight: bold;
+}
+#main_section{
+  width: 1132px;
+  margin: 0px auto ;
+  min-height: 100vh;
+  margin-top: 90px;
+}
+.phone_popular{
+  margin-top: 90px;
+}
+.brand_popular_section{
+  display: flex;
+  flex-direction: row;
+  margin-left: -30px;
+  flex-wrap: wrap;
+}
+.popular_brand{
+  position: relative;  
+  overflow: hidden;
+  width: calc(50% - 20px) ;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.brand_popular_picture{
+  border-radius: 10px;
+  width: 566px; 
+  height: 240px;
+}
+.brand_name{
+  position: absolute;
+  bottom: 90px;
+  left: 50px;
+}
+.infor_product_left_side{
+  position: relative;
+}
+.popular_product_left_section{
+  position: absolute;
+  width: 400px;
+  left: 50px;
+  top: 65px;
+}
+.popular_product_pic{
+  border-radius: 10px;
+  width: 97%;
+}
+.infor_product_right_side_section{
+
+  position: relative;
+}
+.infor_product_right_side{
+  position: absolute;
+  width: 170px;
+  left: 250px;
+  top: 22px;
+  font-size: 13px;
+}
+
+.popular_product_right_side_pic{
+  border-radius: 10px;
+  width: 451px;
+  height: 180px;
+}
+.bottom_infor_product_right_side{
+  margin-top: 20px;
+  position: relative;
+}
+.infor_product_bottom_right_side{
+  position: absolute;
+  width: 170px;
+  left: 250px;
+  top: 22px;
+  font-size: 13px;
+}
+.bottom_popular_product_right_side_pic{
+  border-radius: 10px;
 }
