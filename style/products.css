@@ -178,6 +178,13 @@
   margin: 0px 15px 22px 15px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   border-radius: 8px;
+  cursor: pointer;
+  transition: .5s ease;
+
+}
+.cards:hover{
+  transform: scale(1.05);
+
 }
 
 #card_products{
@@ -203,13 +210,16 @@
   color: #4A5291;
   padding-right: 10px; ;
 }
+.order_product:hover{
+  text-decoration: underline;
+}
 .view_more_card{
   padding: 8px;
   gap: 10px ;
   border-radius: 4px;
   color: #FFFFFF;
   background-color:#E9545E;
-  transition:  0.8s;
+  transition:  0.8s ease-in;
   border: none;
   outline: none;
   font-size: 10px;

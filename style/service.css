@@ -1,0 +1,98 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  *{
+    font-family:'SF Pro Display', sans-serif;
+  }
+  :root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --Gray-100: #424143;
+    --Gray-90: #595A5C;
+    --Gray-80: #6E6F72;
+    --Gray-70: #6E6F72;
+    --Gray-60: #818386;
+    --Gray-50: #949698;
+    --Gray-40: #A7AAAC;
+    --Gray-30: #BCBEC0;
+    --Gray-20: #D2D3D4;
+    --Gray-10:#E6E8EA;
+    --Gray-0: #F3F5F5;
+    --Primary: #4A5291;
+    --Secondary: #E9545E;
+  }
+
+  .banner_website{
+    width: 100%;
+    position: relative; 
+  }
+  .title_page{
+    font-size : 84px;
+    line-height: 100px;
+    font-weight: bold;
+    color: var(--white);
+    position: absolute;
+    top: 74px;
+    left: 60px;
+  }
+  #content{
+    width: 1224px;
+    margin: 0px auto ;
+    min-height: 100vh;
+    margin-top: 90px;
+  }
+.main_title p{
+    font-size: 20px;
+    color: #6E6F72;
+    font-weight: 300;
+    line-height: 23.87px;
+}
+
+
+.cards{
+    padding: 42px 54px;
+    width: 567px;
+    height: 196px;
+    background-color: #F3F5F5;
+    display: flex;
+}
+
+.fa-screwdriver-wrench{
+    font-size: 108px;
+    color: #4A5291;
+}
+.title_card_service{
+    font-size: 30px;
+    line-height: 35.8px;
+    font-weight: 700;
+    color: #4A5291;
+}
+.content_card{
+    margin-left: 40px;
+}
+#card_service_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
