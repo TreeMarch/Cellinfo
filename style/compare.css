@@ -1,0 +1,197 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  *{
+    font-family:'SF Pro Display', sans-serif;
+  }
+  :root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --Gray-100: #424143;
+    --Gray-90: #595A5C;
+    --Gray-80: #6E6F72;
+    --Gray-70: #6E6F72;
+    --Gray-60: #818386;
+    --Gray-50: #949698;
+    --Gray-40: #A7AAAC;
+    --Gray-30: #BCBEC0;
+    --Gray-20: #D2D3D4;
+    --Gray-10:#E6E8EA;
+    --Gray-0: #F3F5F5;
+    --Primary: #4A5291;
+    --Secondary: #E9545E;
+  }
+
+
+  .banner_website{
+    width: 100%;
+    position: relative; 
+  }
+  .title_page{
+    font-size : 84px;
+    line-height: 100px;
+    font-weight: bold;
+    color: var(--white);
+    position: absolute;
+    top: 74px;
+    left: 60px;
+  }
+
+  #content{
+    width: 1224px;
+    margin: 0px auto ;
+    min-height: 100vh;
+    margin-top: 90px;
+  }
+  
+  #card_products{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    justify-content: flex-end;
+  }
+  #cards{
+    border-radius: 16px;
+    width: 283px;
+    height: 410px;
+    /* cursor: pointer; */
+    
+  }
+  #card_products #cards .img_product{
+    border-radius: 16px;
+  }
+#cards .name_products a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.64px;
+    color: #4A5291;
+    text-decoration: none;
+    transition: 0.8s;
+}
+#cards .name_products a:hover{
+    color: #6a73ca;
+}
+#cards .price .present_price{
+    color: #E9545E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.64px;
+}
+#cards .price{
+    padding-top: 10px; ;
+}
+#cards .price .old_price{
+    color: var(--Gray-30);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.64px;
+}
+#parameter_products{
+    display: flex;
+}
+.content_menu {
+    color: #6E6F72;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.87px;
+    width: 355px;
+}
+.content_menu p{
+    margin-bottom: 20px;
+}
+.infor_parameter_products{
+    display: flex ;
+    color: #6E6F72;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.87px;
+    margin-top: 20px;
+}
+
+
+.dimension_infor_product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tech_infor_product{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    flex-wrap: wrap;
+    /* padding-top: 35px;    */
+    margin-top: 6px;
+}
+.feature_infor_product{
+    margin-top: 3px;
+    margin-left: 180px;
+}
+
+.hardware_infor{
+    margin-top: 38px;
+    margin-left: 180px;
+}
+.chipset_infor_product{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23px;
+}
+.camera_infor{
+    margin-top: 72px;
+    margin-left: 180px;
+}
+.btn_buy{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+
+}
+.btn_buy_section{
+    display: flex;
+    gap: 10px ;
+
+}
+.btn_buy button{
+    border: 1px solid #E9545E;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #E9545E;
+    background-color: #fff  ;
+}
+
+.btn_detail{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    transform: translateX(55px);
+}
+.btn_detail button{
+    padding: 16px 48px;
+    background-color: var(--Secondary);
+    gap: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+
+}
