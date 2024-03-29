@@ -87,7 +87,19 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    line-height: 77px;
+    line-height: 57px;
+  }
+  .header_section ul li .navLinks::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    margin: auto;
+    background-color: var(--Secondary);
+    display: block;
+  }
+  .header_section ul li .navLinks:hover::after{
+    width: 100%;
+    transition: width .2s linear;
   }
  .d-flex{
   margin-top: 14px;
@@ -142,4 +154,7 @@
     font-size: 30px;
     margin-right: 10px;
     color: #FFFFFF  ;
+  }
+  .fa-brands:hover{
+    color: #A7AAAC;
   }

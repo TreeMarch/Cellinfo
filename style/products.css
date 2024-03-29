@@ -92,8 +92,22 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    line-height: 77px;
+    line-height: 57px;
   }
+
+  .header_section ul li .navLinks::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    margin: auto;
+    background-color: var(--Secondary);
+    display: block;
+  }
+  .header_section ul li .navLinks:hover::after{
+    width: 100%;
+    transition: width .2s linear;
+  }
+
  .d-flex{
   margin-top: 14px;
  }
@@ -233,7 +247,7 @@
   height: 302px;
   padding: 0 10px 16px 16px;
   margin: 0px 15px 22px 15px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
   border-radius: 8px;
   cursor: pointer;
   transition: .5s ease;
@@ -323,4 +337,7 @@
   font-size: 30px;
   margin-right: 10px;
   color: #FFFFFF  ;
+}
+.fa-brands:hover{
+  color: #A7AAAC;
 }

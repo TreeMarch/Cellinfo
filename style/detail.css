@@ -1,6 +1,9 @@
-body{
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family:'SF Pro Display', sans-serif;
+    
 }
 a{
     text-decoration: none;
@@ -68,8 +71,22 @@ a{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    line-height: 77px;
+    line-height: 57px;
   }
+
+  .header_section ul li .navLinks::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    margin: auto;
+    background-color: var(--Secondary);
+    display: block;
+  }
+  .header_section ul li .navLinks:hover::after{
+    width: 100%;
+    transition: width .2s linear;
+  }
+
  .d-flex{
   margin-top: 14px;
  }
@@ -104,23 +121,23 @@ a{
 }
 #anh1{
     
-    background-image: url('https://s3-alpha-sig.figma.com/img/641d/fbd3/f9d6be26c44dc6e0ca18170d04b52f15?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C94CY7b2~Z1VB5GGTtmVqXE75oDzeJE8J0r3wGYjH~XjOn6L6ukBM4frrgEmLF8NnRrwVQbSyEGaHvK7yUamOn--OEhyMdr3VsLsLeMJh4qgHNMQ-yOeEgAjzJPZkhiVcyQkLQXw6YyNjhkKlTsSYNoaB~l5beFrXNJIV4mBv5ubKs1wNePEfJc6BGbxtRAXVD6ZTKzLSH-yC1yutVS-0n-mZPsFlueLUgW1lqIt4QTlwlO1s6Lce0VWzJ4lLN6OKY07wRuUA8BoQYl0dPMHkCtQjSWcdCxEcAnaOr7gcazaAD6N8tlCOb8IvlD9W8x28if1zpFgwkbGMZNMaXvb0A__');
-    background-size: cover;
+    background-image: url(https://cdn2.cellphones.com.vn/x/media/catalog/product/b/_/b_c_1_9.png);
+    background-size: cover; 
     background-position: center;
 }
 #anh2{
     
-    background-image: url('https://s3-alpha-sig.figma.com/img/641d/fbd3/f9d6be26c44dc6e0ca18170d04b52f15?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C94CY7b2~Z1VB5GGTtmVqXE75oDzeJE8J0r3wGYjH~XjOn6L6ukBM4frrgEmLF8NnRrwVQbSyEGaHvK7yUamOn--OEhyMdr3VsLsLeMJh4qgHNMQ-yOeEgAjzJPZkhiVcyQkLQXw6YyNjhkKlTsSYNoaB~l5beFrXNJIV4mBv5ubKs1wNePEfJc6BGbxtRAXVD6ZTKzLSH-yC1yutVS-0n-mZPsFlueLUgW1lqIt4QTlwlO1s6Lce0VWzJ4lLN6OKY07wRuUA8BoQYl0dPMHkCtQjSWcdCxEcAnaOr7gcazaAD6N8tlCOb8IvlD9W8x28if1zpFgwkbGMZNMaXvb0A__');
+    background-image: url('https://cdn2.cellphones.com.vn/x/media/catalog/product/x/_/x_m_24.png');
     background-size: cover;
     background-position: center;
 }#anh3{
     
-    background-image: url('https://s3-alpha-sig.figma.com/img/bee4/90f2/65cce5f13ebc50a0e6655e5812fc8cda?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WVpyn-YOiGrobMYbOd4JhMFQ1bIk2f1Y4cRvePLa4t3Mp7XIucABJEL5AUyQ6fnHROQMNkn6ISrMB1rcR98Nhob-b~jXOk7VCbjkXaY-vLJljj8-IsnNo7ZaTE0bp8ybEufXOM4xs4t-0RVs4KO1onwFQ9UUHbDnq7Ob2uAVZr3IxfJta4~vbJLp40JeCUx7MFmla7Khh3AHoJ3mwlavQQtLWT5f8EiBYY-CqizGW4XRhMToR9~TGSNsy6qF0ISAlX7l35278TNW8qL6lDBAH4MpkiBs83v~LasxDkID-O-F5y4447LEdJuBxaCSQ9Pg0ucRdgnXm032iHELwPjkjA__');
+    background-image: url(https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/iphone-14-pro_2__5.png);
     background-size: cover;
     background-position: center;
 }#anh4{
     
-    background-image: url('https://s3-alpha-sig.figma.com/img/bee4/90f2/65cce5f13ebc50a0e6655e5812fc8cda?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WVpyn-YOiGrobMYbOd4JhMFQ1bIk2f1Y4cRvePLa4t3Mp7XIucABJEL5AUyQ6fnHROQMNkn6ISrMB1rcR98Nhob-b~jXOk7VCbjkXaY-vLJljj8-IsnNo7ZaTE0bp8ybEufXOM4xs4t-0RVs4KO1onwFQ9UUHbDnq7Ob2uAVZr3IxfJta4~vbJLp40JeCUx7MFmla7Khh3AHoJ3mwlavQQtLWT5f8EiBYY-CqizGW4XRhMToR9~TGSNsy6qF0ISAlX7l35278TNW8qL6lDBAH4MpkiBs83v~LasxDkID-O-F5y4447LEdJuBxaCSQ9Pg0ucRdgnXm032iHELwPjkjA__');
+    background-image: url('https://cdn2.cellphones.com.vn/x/media/catalog/product/v/_/v_ng_18.png');
     background-size: cover;
     background-position: center;
 }
@@ -133,7 +150,7 @@ a{
     transition: transform 0.3 ease;
 }
 .mau:hover{
-    border: 2px solid black ;
+    border: 2px solid rgb(161, 158, 158) ;
     transform: scale(1.2);
 }
 .mau.active{
@@ -142,16 +159,16 @@ a{
 }
 
 #mau1{
-    background-color: aqua;
+    background-color: var(--Gray-0);
 }
 #mau2{
-    background-color: green;
+    background-color: #000;
 }
 #mau3{
-    background-color: cadetblue;
+    background-color: #4A5291;
 }
 #mau4{
-    background-color: darkgray;
+    background-color: rgb(143, 191, 32);
 }
 .giadagiam , .giamgia{
     
@@ -160,9 +177,25 @@ a{
     margin-right: 30px;
 }
 #thea1{
-    color:#4A5291 ;
+    color:#6E6F72;
     text-decoration:underline;
     text-decoration-thickness: 3px;
+    font-size: 24px;
+    line-height:28.64px;
+    font-weight: 700;
+}
+#thea2{
+    font-size: 24px;
+    line-height:28.64px;
+    color:#6E6F72;
+    font-weight: 700;
+
+}
+#thea3{
+    font-size: 24px;
+    line-height:28.64px;
+    color:#6E6F72;
+    font-weight: 700;
 }
 .nut button{
     height: 60px;
@@ -182,7 +215,7 @@ a{
 .thongtinchitiet a{
     margin-right: 20px;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
 }
 .thongtinchitiet a:hover{
     color:#4A5291;
@@ -223,4 +256,7 @@ a{
     font-size: 30px;
     margin-right: 10px;
     color: #FFFFFF  ;
+  }
+  .fa-brands:hover{
+    color: #A7AAAC;
   }
