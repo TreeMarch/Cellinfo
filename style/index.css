@@ -4,6 +4,7 @@
   * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
   }
   body {
     line-height: 1.5;
@@ -255,6 +256,27 @@
   height: 244px;
   margin: 4px 5px;
 }
+
+#btn_back_top{
+  width: 50px;
+  height: 50px;
+  background-color: #4A5291;
+  color: #FFFFFF;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  transition: all .5s;
+  cursor: pointer;
+}
+#btn_back_top:hover{
+  background-color: #6773cb;
+}
+
+
 
 #footer_section{
   background-color: #6E6F72;

@@ -341,3 +341,22 @@
 .fa-brands:hover{
   color: #A7AAAC;
 }
+
+#btn_back_top{
+  width: 50px;
+  height: 50px;
+  background-color: #4A5291;
+  color: #FFFFFF;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  transition: all .5s;
+  cursor: pointer;
+}
+#btn_back_top:hover{
+  background-color: #6773cb;
+}
