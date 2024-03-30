@@ -145,10 +145,8 @@
   border: none;
   outline: none;
 }
-.view_more_banner:hover{
-  background-color: var(--white);
-  color:#E9545E;
-}
+
+
 #main_section{
   width: 1132px;
   margin: 0px auto ;
